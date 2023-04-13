@@ -92,6 +92,17 @@ console.log( 'Foods are now back to', foodArray );
 //      with another one of your favorite foods.
 //      Then log the updated array.
 
+// Using indexOf method to get specific value of second item in array
+let replacedFood = foodArray.indexOf( 'Asparagus' );
+console.log( replacedFood );
+
+// if statement for replacing Asparagus, !== -1 is checking to see if the value of replacedFood exists, 
+// if it does not exist indexOf returns value of -1
+if (replacedFood !== -1 ){
+    foodArray[replacedFood] = 'Brussels Sprouts';
+}
+console.log( foodArray );
+
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
 

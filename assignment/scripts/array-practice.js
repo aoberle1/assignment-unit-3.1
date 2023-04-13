@@ -113,6 +113,10 @@ console.log( foodArray );
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
 
+// using toString method on array to convert
+let arrayText = foodArray.toString();
+console.log( arrayText );
+
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.

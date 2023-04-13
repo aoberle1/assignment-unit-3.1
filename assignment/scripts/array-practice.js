@@ -118,3 +118,11 @@ console.log( foodArray );
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+
+// ... is spread operator - expands the arrays into all elements
+let combinedArray = [ ...foodArray, ...animalArray ];
+console.log( combinedArray );
+
+// combining with concatenation just for comparison
+let otherCombinedArray = [ foodArray + animalArray ];
+console.log( otherCombinedArray );

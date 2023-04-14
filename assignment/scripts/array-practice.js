@@ -55,7 +55,7 @@ console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
 foodArray.push( 'Garlic Bread' );
-console.log( ' The new item at the end is', foodArray[4] );
+console.log( ' The new food array is', foodArray );
 
 // Example: Remove the last animal by using Array.pop
 let removedAnimal = animalArray.pop();
@@ -94,6 +94,7 @@ console.log( 'Foods are now back to', foodArray );
 
 // Using indexOf method to get specific value of second item in array
 let replacedFood = foodArray.indexOf( 'Asparagus' );
+// console.log is testing value of replacedFood to make sure it's correct
 console.log( replacedFood );
 
 // if statement for replacing Asparagus, !== -1 is checking to see if the value of replacedFood exists, 
